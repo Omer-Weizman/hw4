@@ -1,0 +1,7 @@
+a. A lot of time, i estimate a week.
+
+b.It is very important to be familiar with linux functions. it can save time and highly efficient. I think it can be useful for a business man who wants to look for customers.
+
+c. If i want to repeat the process once a hour i should use the thecniqes from tutorial 6: i can call the script recursively and use usleep(pause*3600000[ms]) between the calls. in this way it will occur automatically.
+In order to scan only new articles i can use grep: take in each iteration one address and check whether it is in the articles text file that contains all the previous scanned articles or not. If not, the program runs as usual and concatenate the address to the articles text file. If yes, the program should continue without doing anything.
+Another way is to look ak the time signature of every article in the html log file. If the article scanned more than one hour before the current time continue without showing its data.
